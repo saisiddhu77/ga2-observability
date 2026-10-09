@@ -56,7 +56,7 @@ async def work(n: int = Query(default=1, ge=0, le=100000)):
     result = sum(range(n + 1))
 
     return {
-        "email": "ga2-observability@example.com",
+        "email": "24f3000271@ds.study.iitm.ac.in",
         "done": n
     }
 
